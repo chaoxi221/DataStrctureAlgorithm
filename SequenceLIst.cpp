@@ -82,6 +82,18 @@ bool ListDelelte(SqList& L, int i, int& e) {
 
 }
 
+//静态数组按位查找
+int GetElem(SqList L, int i) {
+	return L.data[i - 1];
+}
+//静态数组按值查找
+int LocateElem(SqList L, int e) {
+	int i = 0;
+	for (i = 0; i < L.length; i++)
+		if (L.data[i] == e)//结构体判等又是另外一回事了，但是只有《C语言程序设计》在意这个细节，大概
+			return i + 1;
+	return 0;
+}
 
 int main() {
 	//顺序表
