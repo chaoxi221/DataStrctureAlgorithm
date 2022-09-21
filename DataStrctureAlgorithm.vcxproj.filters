@@ -18,10 +18,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SequenceLIst.cpp">
+    <ClCompile Include="chapter2-LinkedList.cpp">
       <Filter>源文件\chapter2LinearList</Filter>
     </ClCompile>
-    <ClCompile Include="LinkedList.cpp">
+    <ClCompile Include="chapter2-SequenceLIst.cpp">
       <Filter>源文件\chapter2LinearList</Filter>
     </ClCompile>
   </ItemGroup>
